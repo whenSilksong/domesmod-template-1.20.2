@@ -1,5 +1,6 @@
 package net.dome.domesmod;
 
+import net.dome.domesmod.item.ModItemGroups;
 import net.dome.domesmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,7 +14,7 @@ public class Domesmod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 
 	}

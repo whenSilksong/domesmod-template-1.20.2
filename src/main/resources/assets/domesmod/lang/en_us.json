@@ -1,3 +1,6 @@
 {
-  "item.domesmod.sapphire": "Sapphire"
+  "item.domesmod.sapphire": "Sapphire",
+  "item.domesmod.raw_sapphire": "Raw Sapphire",
+
+  "itemgroup.sapphire": "Sapphire Stuff"
 }

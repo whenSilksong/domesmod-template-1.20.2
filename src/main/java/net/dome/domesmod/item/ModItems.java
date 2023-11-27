@@ -18,6 +18,7 @@ public class ModItems {
     public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new FabricItemSettings()));
     private static void addItemsToIngredientItemsGroup(FabricItemGroupEntries entries) {
         entries.add(SAPPHIRE);
+        entries.add(RAW_SAPPHIRE);
     }
 
 
