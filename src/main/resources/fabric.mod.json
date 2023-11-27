@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "domesmod",
+	"version": "${version}",
+	"name": "domesmod",
+	"description": "This is my first fabric mod made by Dome!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/domesmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dome.domesmod.Domesmod"
+		],
+		"client": [
+			"net.dome.domesmod.DomesmodClient"
+		],
+		"fabric-datagen": [
+			"net.dome.domesmod.DomesmodDataGenerator"
+		]
+	},
+	"mixins": [
+		"domesmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
