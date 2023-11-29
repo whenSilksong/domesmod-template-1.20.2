@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "domesmod:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "domesmod:sapphire",
+    "count": 9
+  }
+}
