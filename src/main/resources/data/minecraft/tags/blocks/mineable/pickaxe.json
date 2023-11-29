@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "domesmod:sapphire_block",
-    "domesmod:raw_sapphire_block"
+    "domesmod:raw_sapphire_block",
+    "domesmod:ruby_block",
+    "domesmod:raw_ruby_block"
   ]
 }

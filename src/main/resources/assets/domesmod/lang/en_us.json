@@ -1,9 +1,13 @@
 {
   "item.domesmod.sapphire": "Sapphire",
   "item.domesmod.raw_sapphire": "Raw Sapphire",
+  "item.domesmod.ruby": "Ruby",
+  "item.domesmod.raw_ruby": "Raw Ruby",
 
   "block.domesmod.sapphire_block": "Block of Sapphire",
   "block.domesmod.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.domesmod.ruby_block": "Block of Ruby",
+  "block.domesmod.raw_ruby_block": "Block of Raw Ruby",
 
-  "itemgroup.sapphire": "Sapphire Stuff"
+  "itemgroup.domesmod": "Domesmod"
 }
