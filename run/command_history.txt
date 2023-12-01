@@ -1,1 +1,9 @@
 /gamemode survival
+/gamemode creative
+/give Player747
+/give @p domesmod:sapphire_axe
+/give @p domesmod:sapphire_sword
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative

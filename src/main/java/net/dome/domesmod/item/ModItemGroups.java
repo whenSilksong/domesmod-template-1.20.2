@@ -18,10 +18,17 @@ public class ModItemGroups {
         entries.add(ModItems.RAW_SAPPHIRE);
         entries.add(ModBlocks.SAPPHIRE_BLOCK);
         entries.add(ModBlocks.RAW_SAPPHIRE_BLOCK);
+        entries.add(ModItems.SAPPHIRE_SWORD);
+        entries.add(ModItems.SAPPHIRE_PICKAXE);
+        entries.add(ModItems.SAPPHIRE_AXE);
+        entries.add(ModItems.SAPPHIRE_SHOVEL);
+        entries.add(ModItems.SAPPHIRE_HOE);
+
         entries.add(ModItems.RUBY);
         entries.add(ModItems.RAW_RUBY);
         entries.add(ModBlocks.RUBY_BLOCK);
         entries.add(ModBlocks.RAW_RUBY_BLOCK);
+
     }).build());
 
     public static void registerItemGroups() {
