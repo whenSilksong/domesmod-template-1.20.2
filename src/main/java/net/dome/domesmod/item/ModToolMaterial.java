@@ -1,6 +1,5 @@
 package net.dome.domesmod.item;
 
-import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -9,7 +8,7 @@ import java.util.function.Supplier;
 public enum ModToolMaterial implements ToolMaterial {
 
 
-    SAPPHIRE(5, 650, 4.5f, 3.5f, 26, () -> Ingredient.ofItems(ModItems.SAPPHIRE));
+    SODALITE(5, 650, 4.5f, 3.5f, 26, () -> Ingredient.ofItems(ModItems.SAPPHIRE));
 
     private final int miningLevel;
     private final int itemDurability;

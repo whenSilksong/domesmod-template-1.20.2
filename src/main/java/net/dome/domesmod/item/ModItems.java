@@ -19,11 +19,11 @@ public class ModItems {
     public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new FabricItemSettings()));
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
-    public static final Item SAPPHIRE_PICKAXE = registerItem("sapphire_pickaxe", new PickaxeItem(ModToolMaterial.SAPPHIRE, 2, 2f, new FabricItemSettings()));
-    public static final Item SAPPHIRE_AXE = registerItem("sapphire_axe", new PickaxeItem(ModToolMaterial.SAPPHIRE, 2, 2f, new FabricItemSettings()));
-    public static final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel", new PickaxeItem(ModToolMaterial.SAPPHIRE, 2, 2f, new FabricItemSettings()));
-    public static final Item SAPPHIRE_HOE = registerItem("sapphire_hoe", new PickaxeItem(ModToolMaterial.SAPPHIRE, 2, 2f, new FabricItemSettings()));
-    public static final Item SAPPHIRE_SWORD = registerItem("sapphire_sword", new PickaxeItem(ModToolMaterial.SAPPHIRE, 2, 2f, new FabricItemSettings()));
+    public static final Item SODALITE_PICKAXE = registerItem("sodalite_pickaxe", new PickaxeItem(ModToolMaterial.SODALITE, 2, 2f, new FabricItemSettings()));
+    public static final Item SAPPHIRE_AXE = registerItem("sapphire_axe", new PickaxeItem(ModToolMaterial.SODALITE, 2, 2f, new FabricItemSettings()));
+    public static final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel", new PickaxeItem(ModToolMaterial.SODALITE, 2, 2f, new FabricItemSettings()));
+    public static final Item SAPPHIRE_HOE = registerItem("sapphire_hoe", new PickaxeItem(ModToolMaterial.SODALITE, 2, 2f, new FabricItemSettings()));
+    public static final Item SODALITE_SWORD = registerItem("sodalite_sword", new PickaxeItem(ModToolMaterial.SODALITE, 10, 0f, new FabricItemSettings()));
     private static void addItemsToIngredientItemsGroup(FabricItemGroupEntries entries) {
         entries.add(SAPPHIRE);
         entries.add(RAW_SAPPHIRE);
