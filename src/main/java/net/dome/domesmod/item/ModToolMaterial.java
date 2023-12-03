@@ -8,7 +8,7 @@ import java.util.function.Supplier;
 public enum ModToolMaterial implements ToolMaterial {
 
 
-    SODALITE(5, 650, 4.5f, 3.5f, 26, () -> Ingredient.ofItems(ModItems.SAPPHIRE));
+    SODALITE(5, 700, 15f, 5f, 26, () -> Ingredient.ofItems(ModItems.SAPPHIRE));
 
     private final int miningLevel;
     private final int itemDurability;

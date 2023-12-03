@@ -8,3 +8,5 @@
 /gamemode survival
 /gamemode creative
 /time set day
+/time set 0
+/gamemode survival
