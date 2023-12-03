@@ -14,3 +14,9 @@
 /time set day
 /gamemode creative
 /gamemode survival
+/give @p minecraft:netherite_pickaxe
+/gamemode creative
+/gamemode survival
+/clear
+/gamemode creative
+/gamemode survival
