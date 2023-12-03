@@ -18,8 +18,12 @@ public class ModItemGroups {
         entries.add(ModItems.RAW_SAPPHIRE);
         entries.add(ModBlocks.SAPPHIRE_BLOCK);
         entries.add(ModBlocks.RAW_SAPPHIRE_BLOCK);
+
+        entries.add(ModBlocks.SODALITE_ORE);
         entries.add(ModItems.SODALITE_SWORD);
         entries.add(ModItems.SODALITE_PICKAXE);
+
+
         entries.add(ModItems.SAPPHIRE_AXE);
         entries.add(ModItems.SAPPHIRE_SHOVEL);
         entries.add(ModItems.SAPPHIRE_HOE);
