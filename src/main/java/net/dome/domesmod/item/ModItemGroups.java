@@ -15,6 +15,7 @@ public class ModItemGroups {
 
     public static final ItemGroup DOMESMOD_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(Domesmod.MOD_ID, "domesmod"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.domesmod")).icon(() -> new ItemStack(ModItems.SODALITE)).entries((displayContext, entries) -> {
 
+        //Sodalite Items
         entries.add(ModItems.SODALITE);
         entries.add(ModBlocks.SODALITE_ORE);
         entries.add(ModItems.SODALITE_SWORD);
@@ -23,7 +24,9 @@ public class ModItemGroups {
         entries.add(ModBlocks.SODALITE_BLOCK);
         entries.add(ModBlocks.RAW_SODALITE_BLOCK);
 
+        //Sun/Glowstone
         entries.add(ModItems.SUNSWORD);
+        entries.add(ModItems.SUNPICKAXE);
         entries.add(ModItems.GLOWSTONE_INGOT);
 
 
