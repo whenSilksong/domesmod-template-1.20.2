@@ -7,15 +7,18 @@
     },
     "X": {
       "item": "domesmod:glowstone_ingot"
+    },
+    "Y": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "  X",
-    " X",
-    "#"
+    "XX#",
+    " YX",
+    "Y X"
   ],
   "result": {
-    "item": "domesmod:sunsword"
+    "item": "domesmod:sunpickaxe"
   },
   "show_notification": true
 }
