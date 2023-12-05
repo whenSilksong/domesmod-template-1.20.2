@@ -5,10 +5,7 @@ import net.dome.domesmod.Domesmod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -21,6 +18,7 @@ public class ModItems {
     public static final Item SODALITE_SWORD = registerItem("sodalite_sword", new SwordItem(ModToolMaterial.SODALITE, 10, 0f, new FabricItemSettings()));
     public static final Item SUNPICKAXE = registerItem("sunpickaxe", new PickaxeItem(ModToolMaterial.SODALITE, 10, 0f, new FabricItemSettings()));
     public static final Item SUNSWORD = registerItem("sunsword", new SwordItem(ModToolMaterial.SODALITE, 10, 0f, new FabricItemSettings()));
+    public static final Item SUNAXE = registerItem("sunaxe", new AxeItem(ModToolMaterial.SODALITE, 10, 0f, new FabricItemSettings()));
 
 
     public static final Item SODALITE = registerItem("sodalite", new Item(new FabricItemSettings()));

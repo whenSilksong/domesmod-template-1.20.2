@@ -27,6 +27,7 @@ public class ModItemGroups {
         //Sun/Glowstone
         entries.add(ModItems.SUNSWORD);
         entries.add(ModItems.SUNPICKAXE);
+        entries.add(ModItems.SUNAXE);
         entries.add(ModItems.GLOWSTONE_INGOT);
 
 
