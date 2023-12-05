@@ -12,7 +12,7 @@
 .idea/**/dictionaries
 .idea/**/shelf
 
-BIN
+
 
 # gradle
 
@@ -46,7 +46,7 @@ bin/
 
 # fabric
 
-run/
+/run
 
 # java
 

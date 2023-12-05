@@ -6,12 +6,12 @@
       "item": "minecraft:netherite_sword"
     },
     "X": {
-      "item": "domesmod:sapphire"
+      "item": "domesmod:sodalite"
     }
   },
   "pattern": [
-    "X",
-    "X",
+    "  X",
+    " X",
     "#"
   ],
   "result": {

@@ -15,20 +15,16 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     //adding new Items
-    public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
-    public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", new Item(new FabricItemSettings()));
-    public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
-    public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
     public static final Item SODALITE_PICKAXE = registerItem("sodalite_pickaxe", new PickaxeItem(ModToolMaterial.SODALITE, 2, 2f, new FabricItemSettings()));
-    public static final Item SAPPHIRE_AXE = registerItem("sapphire_axe", new PickaxeItem(ModToolMaterial.SODALITE, 2, 2f, new FabricItemSettings()));
-    public static final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel", new PickaxeItem(ModToolMaterial.SODALITE, 2, 2f, new FabricItemSettings()));
-    public static final Item SAPPHIRE_HOE = registerItem("sapphire_hoe", new PickaxeItem(ModToolMaterial.SODALITE, 2, 2f, new FabricItemSettings()));
+
     public static final Item SODALITE_SWORD = registerItem("sodalite_sword", new PickaxeItem(ModToolMaterial.SODALITE, 10, 0f, new FabricItemSettings()));
+
+    public static final Item SODALITE = registerItem("sodalite", new Item(new FabricItemSettings()));
+    public static final Item RAW_SODALITE = registerItem("raw_sodalite", new Item(new FabricItemSettings()));
+
+
     private static void addItemsToIngredientItemsGroup(FabricItemGroupEntries entries) {
-        entries.add(SAPPHIRE);
-        entries.add(RAW_SAPPHIRE);
-        entries.add(RUBY);
-        entries.add(RAW_RUBY);
+        entries.add(SODALITE);
     }
 
 

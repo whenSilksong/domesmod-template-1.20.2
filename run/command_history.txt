@@ -20,3 +20,8 @@
 /clear
 /gamemode creative
 /gamemode survival
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/gamemode survival
+/gamemode creative
