@@ -21,6 +21,9 @@ public class ModItemGroups {
         entries.add(ModItems.SODALITE_PICKAXE);
         entries.add(ModItems.RAW_SODALITE);
         entries.add(ModBlocks.SODALITE_BLOCK);
+        entries.add(ModBlocks.RAW_SODALITE_BLOCK);
+
+        entries.add(ModItems.SWORD_OF_DEATH);
 
 
     }).build());

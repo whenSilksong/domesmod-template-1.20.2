@@ -1,24 +1,16 @@
 {
-  "item.domesmod.sapphire": "Sapphire",
-  "item.domesmod.raw_sapphire": "Raw Sapphire",
-  "item.domesmod.sapphire_sword": "Sapphire Sword",
-  "item.domesmod.sapphire_pickaxe":  "Sapphire Pickaxe",
-  "item.domesmod.sapphire_axe": "Sapphire Axe",
-  "item.domesmod.sapphire_shovel": "Sapphire Shovel",
-  "item.domesmod.sapphire_hoe": "Sapphire Hoe",
 
+  "itemgroup.domesmod": "Domesmod",
+
+  "item.domesmod.sword_of_death": "Sword of Death",
 
   "item.domesmod.raw_sodalite": "Raw Sodalite",
   "item.domesmod.sodalite": "Sodalite",
-  "block.domesmod.sodalite_ore": "Sodalite Ore",
   "item.domesmod.sodalite_sword": "Sodalite Sword",
   "item.domesmod.sodalite_pickaxe": "Sodalite Pickaxe",
 
+  "block.domesmod.sodalite_ore": "Sodalite Ore",
+  "block.domesmod.raw_sodalite_block": "Block of Raw Sodalite",
+  "block.domesmod.sodalite": "Block of Sodalite",
 
-  "block.domesmod.sapphire_block": "Block of Sapphire",
-  "block.domesmod.raw_sapphire_block": "Block of Raw Sapphire",
-  "block.domesmod.ruby_block": "Block of Ruby",
-  "block.domesmod.raw_ruby_block": "Block of Raw Ruby",
-
-  "itemgroup.domesmod": "Domesmod"
 }

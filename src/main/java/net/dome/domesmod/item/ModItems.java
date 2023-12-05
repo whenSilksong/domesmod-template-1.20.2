@@ -18,6 +18,7 @@ public class ModItems {
     public static final Item SODALITE_PICKAXE = registerItem("sodalite_pickaxe", new PickaxeItem(ModToolMaterial.SODALITE, 2, 2f, new FabricItemSettings()));
 
     public static final Item SODALITE_SWORD = registerItem("sodalite_sword", new PickaxeItem(ModToolMaterial.SODALITE, 10, 0f, new FabricItemSettings()));
+    public static final Item SWORD_OF_DEATH = registerItem("sword_of_death", new PickaxeItem(ModToolMaterial.SODALITE, 50, 1, new FabricItemSettings()));
 
     public static final Item SODALITE = registerItem("sodalite", new Item(new FabricItemSettings()));
     public static final Item RAW_SODALITE = registerItem("raw_sodalite", new Item(new FabricItemSettings()));
