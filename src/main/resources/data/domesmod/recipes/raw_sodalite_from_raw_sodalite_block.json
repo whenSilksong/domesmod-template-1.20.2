@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "domesmod:raw_sapphire_block"
+      "item": "domesmod:raw_sodalite_block"
     }
   ],
   "result": {
-    "item": "domesmod:raw_sapphire",
+    "item": "domesmod:raw_sodalite",
     "count": 9
   }
 }

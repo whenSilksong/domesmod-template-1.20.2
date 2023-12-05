@@ -9,8 +9,12 @@
   "item.domesmod.sodalite_sword": "Sodalite Sword",
   "item.domesmod.sodalite_pickaxe": "Sodalite Pickaxe",
 
+  "item.domesmod.sunsword": "Sunsword",
+
   "block.domesmod.sodalite_ore": "Sodalite Ore",
   "block.domesmod.raw_sodalite_block": "Block of Raw Sodalite",
   "block.domesmod.sodalite": "Block of Sodalite",
+
+  "item.domesmod.glowstone_ingot": "Glowstone Ingot"
 
 }

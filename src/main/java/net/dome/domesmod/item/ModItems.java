@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -23,6 +24,8 @@ public class ModItems {
     public static final Item SODALITE = registerItem("sodalite", new Item(new FabricItemSettings()));
     public static final Item RAW_SODALITE = registerItem("raw_sodalite", new Item(new FabricItemSettings()));
 
+    public static final Item GLOWSTONE_INGOT = registerItem("glowstone_ingot", new Item(new FabricItemSettings()));
+    public static final Item SUNSWORD = registerItem("sunsword", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemsGroup(FabricItemGroupEntries entries) {
         entries.add(SODALITE);

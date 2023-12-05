@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "domesmod:raw_ruby_block"
+      "item": "domesmod:sodalite_block"
     }
   ],
   "result": {
-    "item": "domesmod:raw_ruby",
+    "item": "domesmod:sodalite",
     "count": 9
   }
 }
