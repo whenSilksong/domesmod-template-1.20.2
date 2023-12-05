@@ -28,6 +28,8 @@ public class ModItemGroups {
         entries.add(ModItems.SUNSWORD);
         entries.add(ModItems.SUNPICKAXE);
         entries.add(ModItems.SUNAXE);
+        entries.add(ModItems.SUNSHOVEL);
+        entries.add(ModItems.SUNHOE);
         entries.add(ModItems.GLOWSTONE_INGOT);
 
 

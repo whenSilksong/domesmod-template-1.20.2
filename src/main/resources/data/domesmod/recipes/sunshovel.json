@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_block"
+    },
+    "X": {
+      "item": "domesmod:glowstone_ingot"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    },
+    "Z": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    " X ",
+    "Z#Z",
+    " Y "
+  ],
+  "result": {
+    "item": "domesmod:sunshovel"
+  },
+  "show_notification": true
+}

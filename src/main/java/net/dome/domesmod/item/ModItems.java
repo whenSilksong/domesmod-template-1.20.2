@@ -19,6 +19,8 @@ public class ModItems {
     public static final Item SUNPICKAXE = registerItem("sunpickaxe", new PickaxeItem(ModToolMaterial.SODALITE, 10, 0f, new FabricItemSettings()));
     public static final Item SUNSWORD = registerItem("sunsword", new SwordItem(ModToolMaterial.SODALITE, 10, 0f, new FabricItemSettings()));
     public static final Item SUNAXE = registerItem("sunaxe", new AxeItem(ModToolMaterial.SODALITE, 10, 0f, new FabricItemSettings()));
+    public static final Item SUNSHOVEL = registerItem("sunshovel", new ShovelItem(ModToolMaterial.SODALITE, 10, 0f, new FabricItemSettings()));
+    public static final Item SUNHOE = registerItem("sunhoe", new HoeItem(ModToolMaterial.SODALITE, 10, 0f, new FabricItemSettings()));
 
 
     public static final Item SODALITE = registerItem("sodalite", new Item(new FabricItemSettings()));
