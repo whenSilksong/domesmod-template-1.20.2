@@ -23,7 +23,6 @@ public class ModItemGroups {
         entries.add(ModBlocks.SODALITE_BLOCK);
         entries.add(ModBlocks.RAW_SODALITE_BLOCK);
 
-        entries.add(ModItems.SWORD_OF_DEATH);
         entries.add(ModItems.SUNSWORD);
         entries.add(ModItems.GLOWSTONE_INGOT);
 
