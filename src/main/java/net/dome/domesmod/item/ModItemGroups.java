@@ -13,10 +13,10 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 
-    public static final ItemGroup DOMESMOD_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(Domesmod.MOD_ID, "domesmod"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.domesmod")).icon(() -> new ItemStack(ModItems.SODALITE)).entries((displayContext, entries) -> {
+    public static final ItemGroup DOMESMOD_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(Domesmod.MOD_ID, "domesmod"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.domesmod")).icon(() -> new ItemStack(ModItems.SUNSET)).entries((displayContext, entries) -> {
 
         //Sodalite Items
-        entries.add(ModItems.SODALITE);
+        entries.add(ModItems.SUNSET);
         entries.add(ModBlocks.SODALITE_ORE);
         entries.add(ModItems.SODALITE_SWORD);
         entries.add(ModItems.SODALITE_PICKAXE);
@@ -31,6 +31,11 @@ public class ModItemGroups {
         entries.add(ModItems.SUNSHOVEL);
         entries.add(ModItems.SUNHOE);
         entries.add(ModItems.GLOWSTONE_INGOT);
+        entries.add(ModItems.SUNHELMET);
+        entries.add(ModItems.SUNCHESTPLATE);
+        entries.add(ModItems.SUNLEGGINGS);
+        entries.add(ModItems.SUNBOOTS);
+
 
 
     }).build());

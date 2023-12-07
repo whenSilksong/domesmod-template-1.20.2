@@ -19,5 +19,7 @@ public class Domesmod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+
+
 	}
 }
