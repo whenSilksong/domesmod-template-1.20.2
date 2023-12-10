@@ -1,0 +1,15 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "domesmod:item/glas_sword"
+  },
+
+  "overrides": [
+    {
+      "predicate": {
+        "broken": 1
+      },
+      "model": "minecraft:item/stick"
+    }
+  ]
+}

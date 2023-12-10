@@ -3,19 +3,19 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:netherite_sword"
+      "item": "minecraft:glass"
     },
     "X": {
-      "item": "domesmod:sodalite"
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "  X",
-    " X",
-    "#"
+    "#",
+    "#",
+    "X"
   ],
   "result": {
-    "item": "domesmod:sodalite_sword"
+    "item": "domesmod:glas_sword"
   },
   "show_notification": true
 }

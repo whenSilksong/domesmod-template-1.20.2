@@ -1,14 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "domesmod:item/sunelytra"
-  },
-  "overrides": [
-    {
-      "predicate": {
-        "broken": 1
-      },
-      "model": "item/broken_elytra"
-    }
-  ]
+    "layer0": "domesmod:items/sunelytra"
+  }
 }

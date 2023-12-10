@@ -8,7 +8,8 @@ import java.util.function.Supplier;
 public enum ModToolMaterial implements ToolMaterial {
 
 
-    SUNSET(5, 700, 15f, 5f, 26, () -> Ingredient.ofItems(ModItems.SUNSET));
+    SUNSET(5, 700, 15f, 5f, 26, () -> Ingredient.ofItems(ModItems.SUNSET)),
+    GLAS(1, 1, 1, 8,26, () -> Ingredient.ofItems((ModItems.GLAS_SWORD)));
 
     private final int miningLevel;
     private final int itemDurability;

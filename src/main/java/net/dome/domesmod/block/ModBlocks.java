@@ -14,9 +14,6 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     //Create Blocks
-    public static final Block SODALITE_ORE = registerBlock("sodalite_ore", new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
-    public static final Block SODALITE_BLOCK = registerBlock("sodalite_block", new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
-    public static final Block RAW_SODALITE_BLOCK = registerBlock("raw_sodalite_block", new Block((FabricBlockSettings.copyOf(Blocks.IRON_BLOCK))));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

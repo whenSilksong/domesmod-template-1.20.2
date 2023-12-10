@@ -2,23 +2,12 @@
 
   "itemgroup.domesmod": "Domesmod",
 
-  "item.domesmod.sword_of_death": "Sword of Death",
-
-  "item.domesmod.raw_sodalite": "Raw Sodalite",
-  "item.domesmod.sodalite": "Sodalite",
-  "item.domesmod.sodalite_sword": "Sodalite Sword",
-  "item.domesmod.sodalite_pickaxe": "Sodalite Pickaxe",
 
   "item.domesmod.sunsword": "Sunsword",
   "item.domesmod.sunpickaxe": "Sunpickaxe",
   "item.domesmod.sunaxe": "Sunaxe",
   "item.domesmod.sunshovel": "Sunshovel",
   "item.domesmod.sunhoe": "Sunhoe",
-
-  "block.domesmod.sodalite_ore": "Sodalite Ore",
-  "block.domesmod.raw_sodalite_block": "Block of Raw Sodalite",
-  "block.domesmod.sodalite": "Block of Sodalite",
-
   "item.domesmod.glowstone_ingot": "Glowstone Ingot"
 
 }

@@ -15,27 +15,22 @@ public class ModItemGroups {
 
     public static final ItemGroup DOMESMOD_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(Domesmod.MOD_ID, "domesmod"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.domesmod")).icon(() -> new ItemStack(ModItems.SUNSET)).entries((displayContext, entries) -> {
 
-        //Sodalite Items
+        //Sodalite Set
         entries.add(ModItems.SUNSET);
-        entries.add(ModBlocks.SODALITE_ORE);
-        entries.add(ModItems.SODALITE_SWORD);
-        entries.add(ModItems.SODALITE_PICKAXE);
-        entries.add(ModItems.RAW_SODALITE);
-        entries.add(ModBlocks.SODALITE_BLOCK);
-        entries.add(ModBlocks.RAW_SODALITE_BLOCK);
 
-        //Sun/Glowstone
+
+        //Sun/Glowstone Set
         entries.add(ModItems.SUNSWORD);
         entries.add(ModItems.SUNPICKAXE);
         entries.add(ModItems.SUNAXE);
         entries.add(ModItems.SUNSHOVEL);
         entries.add(ModItems.SUNHOE);
         entries.add(ModItems.GLOWSTONE_INGOT);
-        entries.add(ModItems.SUNHELMET);
-        entries.add(ModItems.SUNCHESTPLATE);
-        entries.add(ModItems.SUNLEGGINGS);
-        entries.add(ModItems.SUNBOOTS);
 
+
+        //Deepsea Set
+        entries.add(ModItems.DEEPSEA_SWORD);
+        entries.add(ModItems.GLAS_SWORD);
 
 
     }).build());

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "domesmod:item/sodalite_sword"
+    "layer0": "domesmod:item/deepsea_sword"
   }
 }
