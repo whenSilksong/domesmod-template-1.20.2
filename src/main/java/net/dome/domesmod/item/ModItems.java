@@ -14,7 +14,7 @@ public class ModItems {
 
     //adding new Items
 
-    public static final Item GLASS_SWORD = registerItem("glas_sword", new SwordItem(ModToolMaterial.GLAS, 1, 1, new FabricItemSettings()));
+    public static final Item GLASS_SWORD = registerItem("glass_sword", new SwordItem(ModToolMaterial.GLAS, 1, 1, new FabricItemSettings()));
     //Sun Set
      public static final Item SUNPICKAXE = registerItem("sunpickaxe", new PickaxeItem(ModToolMaterial.SUNSET, 2, -2f, new FabricItemSettings()));
     public static final Item SUNSWORD = registerItem("sunsword", new SwordItem(ModToolMaterial.SUNSET, 10, 0f, new FabricItemSettings()));

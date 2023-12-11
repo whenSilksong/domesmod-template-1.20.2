@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "domesmod:item/glas_sword"
+    "layer0": "domesmod:item/glass_sword"
   },
 
   "overrides": [
