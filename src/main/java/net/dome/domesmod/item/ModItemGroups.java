@@ -1,7 +1,6 @@
 package net.dome.domesmod.item;
 
 import net.dome.domesmod.Domesmod;
-import net.dome.domesmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -13,11 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 
-    public static final ItemGroup DOMESMOD_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(Domesmod.MOD_ID, "domesmod"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.domesmod")).icon(() -> new ItemStack(ModItems.SUNSET)).entries((displayContext, entries) -> {
-
-        //Sodalite Set
-        entries.add(ModItems.SUNSET);
-
+    public static final ItemGroup DOMESMOD_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(Domesmod.MOD_ID, "domesmod"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.domesmod")).icon(() -> new ItemStack(ModItems.GLOWSTONE_INGOT)).entries((displayContext, entries) -> {
 
         //Sun/Glowstone Set
         entries.add(ModItems.SUNSWORD);
@@ -30,7 +25,7 @@ public class ModItemGroups {
 
         //Deepsea Set
         entries.add(ModItems.DEEPSEA_SWORD);
-        entries.add(ModItems.GLAS_SWORD);
+        entries.add(ModItems.GLASS_SWORD);
 
 
     }).build());
