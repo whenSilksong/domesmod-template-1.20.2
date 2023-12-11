@@ -11,8 +11,8 @@
   },
   "pattern": [
     "  X",
-    " X",
-    "#"
+    " X ",
+    "#  "
   ],
   "result": {
     "item": "domesmod:sunsword"
