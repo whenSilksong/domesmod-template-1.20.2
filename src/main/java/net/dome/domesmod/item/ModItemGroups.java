@@ -21,11 +21,17 @@ public class ModItemGroups {
         entries.add(ModItems.SUNSHOVEL);
         entries.add(ModItems.SUNHOE);
         entries.add(ModItems.GLOWSTONE_INGOT);
-
+        entries.add(ModItems.SUN_HELMET);
+        entries.add(ModItems.SUN_CHESTPLATE);
+        entries.add(ModItems.SUN_LEGGINGS);
+        entries.add(ModItems.SUN_BOOTS);
 
         //Deepsea Set
         entries.add(ModItems.DEEPSEA_SWORD);
         entries.add(ModItems.GLASS_SWORD);
+
+
+        //Elytra
 
 
     }).build());

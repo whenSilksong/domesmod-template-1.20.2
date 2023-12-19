@@ -1,7 +1,6 @@
-package net.dome.domesmod.item.custom;
+package net.dome.domesmod.item;
 
 import net.dome.domesmod.Domesmod;
-import net.dome.domesmod.item.ModItems;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -11,9 +10,9 @@ import net.minecraft.sound.SoundEvents;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-
-    SUNSET("sunset", 25, new int[] {3,8,6,3}, 19, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.GLOWSTONE_INGOT));
-
+    SUNSET("sunset", 25, new int[] {20, 20, 20, 20}, 17, SoundEvents.BLOCK_NETHER_WOOD_HIT, 20, 0.1f, () -> Ingredient.ofItems(ModItems.GLOWSTONE_INGOT)),
+    SUNSET2("sunset2", 25, new int[] {20, 20, 20, 20}, 17, SoundEvents.BLOCK_NETHER_WOOD_HIT, 20, 0.1f, () -> Ingredient.ofItems(ModItems.GLOWSTONE_INGOT))
+    ;
 
     private final String name;
     private final int durabilityMultiplier;
@@ -26,17 +25,16 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     private static final int[] BASE_DURABILITY = { 11, 16, 15, 13};
 
-    ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
+    ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSount, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;
         this.enchantability = enchantability;
-        this.equipSound = equipSound;
+        this.equipSound = equipSount;
         this.toughness = toughness;
         this.knockbackResistance = knockbackResistance;
         this.repairIngredient = repairIngredient;
     }
-
 
     @Override
     public int getDurability(ArmorItem.Type type) {

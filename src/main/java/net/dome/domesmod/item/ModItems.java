@@ -9,6 +9,7 @@ import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 public class ModItems {
 
@@ -22,9 +23,17 @@ public class ModItems {
     public static final Item SUNSHOVEL = registerItem("sunshovel", new ShovelItem(ModToolMaterial.SUNSET, 2.5f, -2f, new FabricItemSettings()));
     public static final Item SUNHOE = registerItem("sunhoe", new HoeItem(ModToolMaterial.SUNSET, 1, 0f, new FabricItemSettings()));
     public static final Item GLOWSTONE_INGOT = registerItem("glowstone_ingot", new Item(new FabricItemSettings()));
+    public static final Item SUN_HELMET = registerItem("sun_helmet", new ArmorItem(ModArmorMaterials.SUNSET, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item SUN_CHESTPLATE = registerItem("sun_chestplate", new ArmorItem(ModArmorMaterials.SUNSET, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item SUN_LEGGINGS = registerItem("sun_leggings", new ArmorItem(ModArmorMaterials.SUNSET, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item SUN_BOOTS = registerItem("sun_boots", new ArmorItem(ModArmorMaterials.SUNSET, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
 
     //Deepsea Set
     public static final Item DEEPSEA_SWORD = registerItem("deepsea_sword", new SwordItem(ModToolMaterial.SUNSET, 10, 0f, new FabricItemSettings())); //same ModToolMaterial like Sun-Set
+
+    //Elytra
+
 
 
     private static void addItemsToIngredientItemsGroup(FabricItemGroupEntries entries) {
