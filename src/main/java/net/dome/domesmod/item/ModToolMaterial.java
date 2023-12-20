@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 public enum ModToolMaterial implements ToolMaterial {
 
 
-    SUNSET(5, 7000, 1000, 5f, 26, () -> Ingredient.ofItems(ModItems.GLOWSTONE_INGOT)),
+    SUNSET(5, 0, 300, 5f, 26, () -> Ingredient.ofItems(ModItems.GLOWSTONE_INGOT)),
     GLAS(1, 1, 1, 8,26, () -> Ingredient.ofItems((ModItems.GLASS_SWORD)));
 
     private final int miningLevel;

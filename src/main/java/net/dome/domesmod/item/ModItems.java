@@ -2,6 +2,7 @@ package net.dome.domesmod.item;
 
 import net.dome.domesmod.Domesmod;
 
+import net.dome.domesmod.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -23,10 +24,10 @@ public class ModItems {
     public static final Item SUNSHOVEL = registerItem("sunshovel", new ShovelItem(ModToolMaterial.SUNSET, 2.5f, -2f, new FabricItemSettings()));
     public static final Item SUNHOE = registerItem("sunhoe", new HoeItem(ModToolMaterial.SUNSET, 1, 0f, new FabricItemSettings()));
     public static final Item GLOWSTONE_INGOT = registerItem("glowstone_ingot", new Item(new FabricItemSettings()));
-    public static final Item SUN_HELMET = registerItem("sun_helmet", new ArmorItem(ModArmorMaterials.SUNSET, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item SUN_CHESTPLATE = registerItem("sun_chestplate", new ArmorItem(ModArmorMaterials.SUNSET, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item SUN_LEGGINGS = registerItem("sun_leggings", new ArmorItem(ModArmorMaterials.SUNSET, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
-    public static final Item SUN_BOOTS = registerItem("sun_boots", new ArmorItem(ModArmorMaterials.SUNSET, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item SUN_HELMET = registerItem("sun_helmet", new ModArmorItem(ModArmorMaterials.SUNSET, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item SUN_CHESTPLATE = registerItem("sun_chestplate", new ModArmorItem(ModArmorMaterials.SUNSET, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item SUN_LEGGINGS = registerItem("sun_leggings", new ModArmorItem(ModArmorMaterials.SUNSET, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item SUN_BOOTS = registerItem("sun_boots", new ModArmorItem(ModArmorMaterials.SUNSET, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
 
     //Deepsea Set

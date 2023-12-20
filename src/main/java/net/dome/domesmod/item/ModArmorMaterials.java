@@ -10,9 +10,8 @@ import net.minecraft.sound.SoundEvents;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    SUNSET("sunset", 25, new int[] {20, 20, 20, 20}, 17, SoundEvents.BLOCK_NETHER_WOOD_HIT, 20, 0.1f, () -> Ingredient.ofItems(ModItems.GLOWSTONE_INGOT)),
-    SUNSET2("sunset2", 25, new int[] {20, 20, 20, 20}, 17, SoundEvents.BLOCK_NETHER_WOOD_HIT, 20, 0.1f, () -> Ingredient.ofItems(ModItems.GLOWSTONE_INGOT))
-    ;
+    SUNSET("sunset", 250, new int[] {20, 20, 20, 20}, 17, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 20, 0.1f, () -> Ingredient.ofItems(ModItems.GLOWSTONE_INGOT));
+
 
     private final String name;
     private final int durabilityMultiplier;
