@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "Y": {
+      "item": "domesmod:glowstone_ingot"
+    }
+  },
+  "pattern": [
+    "X X",
+    "YYY",
+    "YYY"
+  ],
+  "result": {
+    "item": "domesmod:sun_chestplate"
+  },
+  "show_notification": true
+}
